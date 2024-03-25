@@ -16,4 +16,4 @@ This is a simple project to demonstrate the use of NodeJS with Express for authe
 2. Copy the `.env.example` file to `.env` and fill in the necessary information
 3. Run `npm install`
 4. Run `npx prisma migrate dev`
-5. Run `npm run dev`
+5. Run `npm run start`
