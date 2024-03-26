@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 app.use("*", (req, res, next) => {
     const err = new AppError(404, "fail", "undefined route")
-    next(err, req, res, next)
+    next(err)
 })
 
 app.use(globalErrHandler)

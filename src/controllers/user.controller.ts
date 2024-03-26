@@ -1,6 +1,5 @@
-import { PrismaClient } from "@prisma/client";
 import jsonwebtoken from "jsonwebtoken";
-import configuration from "../config/configuration.js"
+import configuration from "../config/configuration.ts"
 import prisma from "../db/prisma.js";
 
 export let signInUser = async (req, res) => {

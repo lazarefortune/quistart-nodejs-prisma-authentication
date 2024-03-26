@@ -1,5 +1,5 @@
 import express from "express";
-import * as userController from "../controllers/user.controller.js";
+import * as userController from "../controllers/user.controller.ts";
 const router = express.Router();
 
 router.post("/inscription", userController.createUser);

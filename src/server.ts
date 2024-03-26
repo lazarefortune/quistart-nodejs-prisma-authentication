@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-import app from "./app.js";
+import app from "app.ts";
 import { PrismaClient } from "@prisma/client"
 dotenv.config();
 
